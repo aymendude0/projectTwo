@@ -1,0 +1,44 @@
+.win {
+    background: $secondary;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.winWrapper {
+    margin: 0 auto;
+    max-width: 1500px;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.winText h2 {
+    @include h2Text($primary, 40px);
+}
+
+.winText p {
+    @include bodyText(black);
+}
+
+.winText a {
+    @include buttons;
+}
+
+.winImage img {
+    box-shadow: -20px 20px $tertiary;
+    position: relative;
+    top: 30px;
+}
+
+
+.winText {
+    width: 800px;
+}
+
+
+
+
+// .vacationText {
+//     text-align: center;
+//     padding-top: 100px;
+// }

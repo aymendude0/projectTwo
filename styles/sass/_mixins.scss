@@ -1,0 +1,62 @@
+
+// Mixin for read more buttons 
+@mixin buttons() {
+    padding: 5px 15px;
+    background-color: $tertiary;
+    color: $primary;
+    font-size: 22.4px;
+    line-height: 41.6px;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'IM Fell English', serif;
+    text-transform: uppercase;
+}
+
+@mixin header($imgPath) {
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url($imgPath);
+}
+
+
+@mixin headerText($color) {
+    font-family: 'IM Fell English', serif;
+    font-size: 79px;
+    color: $color;
+    text-transform: uppercase;
+}
+
+@mixin h2Text($color2, $fontSize) {
+    font-family: 'IM Fell English', serif;
+    font-size: $fontSize;
+    color: $color2;
+    text-transform: uppercase;
+    line-height: 99.8px;
+}
+
+@mixin bodyText($color3) {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 1px;
+    color: $color3;
+}
+
+
+
+// @mixin focus() {
+    
+// }
+
+// .moreButton {
+//     @include buttons();
+// }
+
+// @mixin nav {
+    
+// }
+
+// @mixin head

@@ -1,0 +1,48 @@
+.mainHeader {
+    @include header('../../project2/assets/home-header.jpg');
+}
+
+.headerText h1 {
+    @include headerText($tertiary);
+}
+
+.traits p {
+    @include bodyText(black)
+}
+
+.headerText {
+    padding-bottom: 50px;
+    padding-left: 70px;
+}
+
+.flexParent {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.textArea {
+    width: 490px;
+}
+
+.headWrapper {
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+
+.headerFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    // flex-wrap: wrap;
+}
+
+.boatPopOut {
+    position: relative;
+    top: 250px;
+    right: 5px;
+    width: 900px;
+}
+

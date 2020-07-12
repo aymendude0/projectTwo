@@ -1,0 +1,28 @@
+.vacation {
+    background: $secondary;
+    padding-bottom: 100px;
+}
+
+.vacationWrapper {
+    margin: 0 auto;
+    max-width: 1500px;
+    width: 90%;
+}
+
+.vacationText h2 {
+    @include h2Text($primary, 40px);
+}
+
+.vacationText p {
+    @include bodyText(black);
+    padding-bottom: 45px;
+}
+
+.vacationText a {
+    @include buttons;
+}
+
+.vacationText {
+    text-align: center;
+    padding-top: 100px;
+}

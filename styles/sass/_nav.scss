@@ -1,0 +1,38 @@
+nav {
+    padding-top: 50px;
+    padding-left: 60px;
+    ul {
+        display: flex;
+        li {
+            a {
+                color: $linkColor;
+                padding: 20px 30px 5px 30px;
+                font-family: 'Roboto', sans-serif;
+                font-weight: bold;
+                letter-spacing: 1px;
+                line-height: 29px;
+
+                &:hover {
+                    color: black;
+                    
+                }
+                &:active {
+                    color: white;
+                }
+                span {
+                    padding-bottom: 5px;
+
+                    &:hover {
+                        border-bottom: 3px solid $tertiary;
+                    }    
+                    &:visited {
+                        border-bottom: 3px solid $tertiary;
+                    }
+                    &:active {
+                        border-bottom: 3px solid black;
+                    }
+                }
+            }
+        }
+    }
+}
