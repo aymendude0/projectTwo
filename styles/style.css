@@ -326,6 +326,10 @@ img {
   width: 900px;
 }
 
+.focus {
+  border-bottom: 3px solid #fdd908;
+}
+
 nav {
   padding-top: 50px;
   padding-left: 60px;
@@ -605,4 +609,289 @@ i {
 
 .winText {
   width: 800px;
+}
+
+.winButton {
+  margin-top: 20px;
+}
+
+.mainGallery {
+  background: #0d457f;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+.galleryWrapper {
+  margin: 0 auto;
+  max-width: 1500px;
+  width: 90%;
+}
+
+.galleryFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.mainFooter {
+  background: #fdd908;
+  text-align: center;
+}
+
+.mainFooter p,
+.mainFooter a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 1px;
+  color: #0d457f;
+}
+
+.contactHeader {
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../../project2/assets/contact-header.jpg");
+}
+
+.contactSection {
+  background: #eafefc;
+  padding-bottom: 25px;
+}
+
+.contactInfo p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 1px;
+  color: black;
+}
+
+.fontsEmail i {
+  color: #0d457f;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.fontsEmail i:nth-of-type(1) {
+  padding-left: 0px;
+}
+
+.fontsEmail {
+  padding-bottom: 20px;
+}
+
+.touchText h1 {
+  font-family: 'IM Fell English', serif;
+  font-size: 79px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.focusTwo {
+  border-bottom: 3px solid #fdd908;
+}
+
+.touchText {
+  padding-bottom: 50px;
+  padding-left: 70px;
+}
+
+.contactFlexTwo {
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contactText {
+  width: 800px;
+}
+
+.contactWrapper {
+  max-width: 1700px;
+  margin: 0 auto;
+}
+
+.formWrapper {
+  max-width: 1700px;
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contactFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+textarea {
+  resize: none;
+  width: 83%;
+  border: 2px solid #fdd908;
+  background: none;
+  color: white;
+  padding: 20px;
+}
+
+input[type=text],
+input[type=email] {
+  width: 40%;
+  background: none;
+  border: none;
+  border-bottom: 2px solid #fdd908;
+  padding: 15px;
+  margin-bottom: 40px;
+}
+
+input[type=text]:placeholder-shown,
+input[type=email]:placeholder-shown {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.contactInfo {
+  width: 35%;
+  padding: 100px 75px;
+}
+
+.contactForm {
+  background: #0d457f;
+  width: 60%;
+  padding-top: 60px;
+  padding-bottom: 45px;
+  -webkit-box-shadow: 20px 20px #fdd908;
+          box-shadow: 20px 20px #fdd908;
+  position: relative;
+  top: -180px;
+}
+
+.wrapperTwo {
+  margin: 0 auto;
+  text-align: center;
+}
+
+input[type=email] {
+  margin-left: 20px;
+}
+
+input[type=submit] {
+  padding: 5px 15px;
+  background-color: #fdd908;
+  color: #0d457f;
+  font-size: 22.4px;
+  line-height: 41.6px;
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'IM Fell English', serif;
+  text-transform: uppercase;
+  width: 90%;
+  margin-top: 40px;
+}
+
+.contactFooter {
+  background: #fdd908;
+  text-align: center;
+}
+
+.contactFooter p,
+.contactFooter a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 1px;
+  color: #0d457f;
+}
+
+.blogHeader {
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../../project2/assets/blog-header.jpg");
+}
+
+.blogText h1 {
+  font-family: 'IM Fell English', serif;
+  font-size: 79px;
+  color: #fdd908;
+  text-transform: uppercase;
+}
+
+.focus3 {
+  border-bottom: 3px solid #fdd908;
+}
+
+.blogText {
+  padding-bottom: 50px;
+  padding-left: 70px;
+}
+
+.blogFlexTwo {
+  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 800px;
+}
+
+.blogFlex {
+  max-width: 1700px;
+  margin: 0 auto;
+}
+
+.mainBackground {
+  background: #eafefc;
+}
+
+.blogSection {
+  max-width: 1700px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.blogSection aside {
+  width: 30%;
+}
+
+.blogSection article {
+  width: 60%;
 }

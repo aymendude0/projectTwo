@@ -1,0 +1,137 @@
+.contactHeader {
+    @include header('../../project2/assets/contact-header.jpg');
+}
+
+.contactSection {
+    background: $secondary;
+    padding-bottom: 25px;
+}
+
+.contactInfo p {
+    @include bodyText(black);
+}
+
+.fontsEmail i {
+    color: $primary;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.fontsEmail i:nth-of-type(1) {
+    padding-left: 0px;
+}
+
+.fontsEmail {
+    padding-bottom: 20px;
+}
+
+.touchText h1 {
+    @include headerText(white);
+}
+
+.focusTwo {
+    border-bottom: 3px solid $tertiary;
+}
+
+.touchText {
+    padding-bottom: 50px;
+    padding-left: 70px;
+}
+
+.contactFlexTwo {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contactText {
+    width: 800px;
+}
+
+.contactWrapper {
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+.formWrapper {
+    max-width: 1700px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.contactFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    // flex-wrap: wrap;
+}
+
+
+
+textarea {
+    resize: none;
+    width: 83%;
+    border: 2px solid $tertiary;
+    background: none;
+    color: white;
+    padding: 20px;
+}
+
+input[type=text],
+input[type=email] {
+    width: 40%;
+    background: none;
+    border: none;
+    border-bottom: 2px solid $tertiary;
+    padding: 15px;
+    margin-bottom: 40px;
+}
+
+input[type=text]:placeholder-shown,
+input[type=email]:placeholder-shown {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contactInfo {
+    width: 35%;
+    padding: 100px 75px;
+}
+
+.contactForm {
+    background: $primary;
+    width: 60%;
+    padding-top: 60px;
+    padding-bottom: 45px;
+    box-shadow: 20px 20px $tertiary;
+    position: relative;
+    top: -180px;
+}
+
+.wrapperTwo {
+    margin: 0 auto;
+    text-align: center;
+}
+
+input[type=email] {
+    margin-left: 20px;
+}
+
+input[type=submit] {
+    @include buttons;
+    width: 90%;
+    margin-top: 40px;
+}
+
+
+.contactFooter {
+    background: $tertiary;
+    text-align: center;
+}
+
+.contactFooter p,
+.contactFooter a {
+    @include bodyText($primary);
+}

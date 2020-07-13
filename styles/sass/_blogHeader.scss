@@ -1,0 +1,32 @@
+.blogHeader {
+    @include header('../../project2/assets/blog-header.jpg');
+}
+
+.blogText h1 {
+    @include headerText($tertiary);
+}
+
+.focus3 {
+    border-bottom: 3px solid $tertiary;
+}
+
+.blogText {
+    padding-bottom: 50px;
+    padding-left: 70px;
+}
+
+
+
+
+.blogFlexTwo {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 800px;
+}
+
+.blogFlex {
+    max-width: 1700px;
+    margin: 0 auto;
+}

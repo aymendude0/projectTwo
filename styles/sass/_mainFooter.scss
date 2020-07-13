@@ -1,0 +1,9 @@
+.mainFooter {
+    background: $tertiary;
+    text-align: center;
+}
+
+.mainFooter p,
+.mainFooter a {
+    @include bodyText($primary);
+}

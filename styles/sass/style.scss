@@ -1,3 +1,4 @@
+// Main Page Start
 @import 'setup';
 @import 'removeStyles';
 @import 'variables';
@@ -9,6 +10,20 @@
 @import 'vacation';
 @import 'backgroundImage';
 @import 'winSection';
+@import 'mainGallery';
+@import 'mainFooter';
+// Main Page End
+
+
+
+// Contact Page Start
+@import 'contactHeader';
+// Contact Page End
+
+
+// Blog Page Start
+@import 'blogHeader';
+@import 'blogSection';
 
 
 
