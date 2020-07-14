@@ -1,5 +1,5 @@
 .blogHeader {
-    @include header('../../project2/assets/blog-header.jpg');
+    @include header('../assets/blog-header.jpg');
 }
 
 .blogText h1 {

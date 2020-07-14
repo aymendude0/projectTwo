@@ -11,9 +11,89 @@
 }
 
 .blogSection aside {
-    width: 30%;
+    width: 25%;
 }
 
 .blogSection article {
     width: 60%;
+    border-left: 7px solid $tertiary;
+    border-bottom: 7px solid $tertiary;
 }
+
+aside {
+    background: $primary;
+    margin-left: 70px;
+    margin-top: 120px;
+    height: 850px;
+}
+
+.asideImage {
+    position: relative;
+    left: -30px;
+    top: -22px;
+}
+
+aside p,
+aside li {
+    @include bodyText(white);
+}
+
+aside ul li {
+    list-style: inside;
+    // margin-left: 20px;
+}
+
+aside h2 {
+    line-height: 58px;
+    letter-spacing: 0.8px;
+    font-size: 25px;
+    font-family: 'IM Fell English', serif;
+    color: $tertiary;
+    text-transform: uppercase;
+}
+
+.missionText {
+    padding: 10px 20px 40px 40px;
+}
+
+.recentText {
+    padding: 0px 20px 20px 40px;
+}
+
+
+.blogPost h2 {
+    @include h2Text($primary, 45px)
+}
+
+.blogPost p {
+    @include bodyText(black);
+}
+
+.paragraphSpacing {
+    margin-bottom: 20px;
+}
+
+.lastSpacing {
+    margin-bottom: 0px;
+}
+
+.dateSpacing {
+    margin-bottom: 30px;
+}
+
+.blogPost {
+    padding: 20px 100px 0px 100px;
+    position: relative;
+    bottom: 130px;
+}
+
+.articleImage img {
+    box-shadow: -25px 35px $tertiary;
+}
+
+.articleImage {
+    position: relative;
+    left: 25px;
+    bottom: 200px;
+}
+

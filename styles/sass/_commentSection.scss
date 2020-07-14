@@ -1,0 +1,74 @@
+.commentForm textarea {
+    resize: none;
+    width: 100%;
+    border: 2px solid $tertiary;
+    background: none;
+    color: $primary;
+    padding: 20px;
+}
+
+.commentForm input[type=text],
+.commentForm input[type=email] {
+    width: 48%;
+    background: none;
+    border: none;
+    border-bottom: 2px solid $tertiary;
+    padding: 15px;
+    margin-bottom: 40px;
+}
+
+.commentForm input[type=text]:placeholder-shown,
+.commentForm input[type=email]:placeholder-shown {
+    color: $primary;
+    font-family: 'Roboto', sans-serif;
+    // font-weight: bolder;
+}
+
+.commentForm {
+    width: 100%;
+    // padding-top: 60px;
+    padding-bottom: 45px;
+    position: relative;
+    // top: -180px;
+}
+
+.commentForm input[type=submit] {
+    @include buttons;
+    background: $primary;
+    color: $tertiary;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.commentText h2 {
+    @include h2Text($primary, 45px)
+}
+    
+.commentText p {
+    @include bodyText(black);
+}
+
+.commentDate {
+    color: $primary;
+    font-size: 20px;
+}
+
+.firstComment,
+.secondComment {
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.commentsSection {
+    width: 60%;
+    margin-top: 50px;
+    padding-left: 100px;
+    float: right;
+    max-width: 1500px;
+}
+
+.firstCommentImage,
+.secondCommentImage {
+    width: 50%;
+    padding-top: 9px;
+}

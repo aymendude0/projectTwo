@@ -28,11 +28,11 @@
             </div>
         </div>
     </header>
-    <div class="mainBackground">
+    <div class="mainBackground clearfix">
         <section class="blogSection">
             <aside>
                 <div class="asideImage">
-                    <img src="./assets/blog-side-image.jpg" alt="">
+                    <img src="./assets/blog-side-image.jpg" alt="View from sailboat deck with sun shining">
                 </div>
                 <div class="missionText">
                     <h2>Our Mission</h2>
@@ -50,17 +50,59 @@
             </aside>
             <article>
                 <div class="articleImage">
-                    <img src="./assets/blog-post-image.jpg" alt="">
+                    <img src="./assets/blog-post-image.jpg" alt="Front view of boat anchored into sea">
                 </div>
                 <div class="blogPost">
                     <h2>Next Destination</h2>
-                    <p  >Tuesday July 14, 2020 by Aymen</p>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor veritatis quisquam ipsa consectetur debitis perferendis qui cumque aperiam maiores mollitia.</p>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium provident alias nam voluptatibus consectetur hic numquam similique consequuntur repellendus, dolore mollitia ipsum libero blanditiis, vitae et asperiores harum, maiores maxime modi beatae. Earum, repellat dolor maxime praesentium quos magnam velit?</p>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas sit quis, non necessitatibus placeat ipsam nostrum odit incidunt soluta libero amet suscipit ipsa debitis! Vel possimus obcaecati odit corporis esse excepturi molestiae eveniet cum quam est facilis vero incidunt, amet repudiandae. Repellat hic accusamus non velit sapiente fugit dolor ducimus, atque voluptatum voluptates odio deserunt, sint explicabo. Eaque, ipsa iste.</p>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, eveniet numquam beatae eos animi minima.</p>
+                    <p class="dateSpacing">Tuesday July 14, 2020 by Aymen</p>
+                    <div class="textFlex">
+                        <div class="textDivide">
+                            <p class="paragraphSpacing">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius quae suscipit totam, iste dolor soluta, adipisci aut perspiciatis quo magni, ea possimus sint et dolores accusantium aliquid deserunt beatae. Reiciendis quas ipsum adipisci libero voluptatum perspiciatis?</p>
+                            <p class="paragraphSpacing">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque deleniti ipsa dolore iste quis officiis dolorum sed rerum, facilis recusandae molestiae magni explicabo tempore consequuntur sit ex aut aperiam perspiciatis, cum minima dolores quaerat. Beatae fuga aliquid consequuntur, nobis doloremque incidunt reprehenderit suscipit, quibusdam at ipsam nisi, temporibus repellat id!</p>
+                        </div>
+                        <div class="textDivideTwo">
+                            <p class="paragraphSpacing">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic atque voluptates repellendus reprehenderit iure minus sint autem rerum facilis, doloribus aut deleniti maiores sed velit enim expedita. Provident consequatur sapiente earum ipsum doloribus dignissimos voluptas! Saepe cumque numquam mollitia placeat corrupti quasi laborum officia corporis deserunt laboriosam eum praesentium porro tempore nulla, harum eius quod eos neque! Incidunt quibusdam debitis at hic, expedita ex ducimus magni eaque, consequatur, officia aspernatur!</p>
+                            <p class="lastSpacing">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam magnam iure voluptas harum, tenetur illo eum dolore dolorum animi distinctio!</p>
+                        </div>
+                    </div> 
                 </div>
             </article>
+        </section>
+        <section class="commentsSection commentWrapper">
+            <div class="commentText">
+                <div class="commentsHeading">
+                    <h2>Comments:</h2>
+                </div>
+                <div class="firstComment">
+                    <div class="firstCommentImage">
+                        <img src="./assets/comment-1.jpg" alt="Young man smiling">
+                    </div>
+                    <div class="firstCommentText">
+                        <p><span class="commentDate">Tuesday October 9th, 2019 by Ali</span></p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio adipisci porro quod, dolorum soluta, voluptatum neque cum fugit vero recusandae possimus temporibus minus magnam sed culpa tempora atque non voluptatibus modi ducimus.</p>
+                    </div>
+                </div>
+                <div class="secondComment">
+                    <div class="secondCommentImage">
+                        <img src="./assets/comment-2.jpg" alt="Young woman smiling">
+                    </div>
+                    <div class="secondCommentText">
+                        <p><span class="commentDate">Tuesday October 9th, 2019 by Ali</span></p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio adipisci porro quod, dolorum soluta, voluptatum neque cum fugit vero recusandae possimus temporibus minus magnam sed culpa tempora atque non voluptatibus modi ducimus.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="commentForm">
+                <form class="commentFormWrapper">
+                    <label for="name" class="name sr-only">Name</label><input type="text" id="name" placeholder="Name">
+        
+                    <label for="email" class="email sr-only">Email</label><input type="email" id="email" placeholder="Email Address">
+        
+                    <label for="message" class="message sr-only">Message</label><textarea name="Message" id="message" placeholder="Comment" cols="70" rows="10"></textarea>
+        
+                    <input type="submit" value="Post Comment">
+                </form>
+            </div>
         </section>
     </div> 
 </body>

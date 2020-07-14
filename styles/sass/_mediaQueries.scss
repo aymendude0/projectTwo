@@ -1,0 +1,335 @@
+
+@media (max-width: 2000px) {
+.articleImage {
+    position: relative;
+    left: 0px;
+    }
+}
+
+@media (max-width: 1411px) {
+    .boatPopOut img {
+        padding-left: 50px;
+    }
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1065px) {
+    .flexParent {
+        justify-content: space-around;
+    }
+
+    .boatPopOut img {
+        padding-left: 90px;
+    }
+
+    .firstCommentImage,
+    .secondCommentImage {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+@media (max-width: 935px) {
+
+// Header Responsive
+
+    .headWrapper {
+        flex-direction: column;
+    }
+
+    .boatPopOut img {
+        width: 500px;
+    }
+
+    .boatPopOut {
+        top: -150px;
+    }
+// Header Responsive End
+
+.flexParentTwo {
+    flex-wrap: wrap;
+}
+
+.firstSet,
+.secondSet {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.winWrapper {
+    flex-wrap: wrap;
+}
+
+.winImage img {
+    top: 0px;
+}
+
+.winText {
+    text-align: center;
+}
+
+
+
+// Blog Page Responsive
+
+.formWrapper {
+    max-width: 950px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactForm {
+    width: 100%;
+}
+
+.contactInfo {
+    margin-bottom: 200px;
+    text-align: center;
+    width: 100%;
+
+}
+
+.blogSection {
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+
+.blogSection aside {
+    width: 50%;
+}
+
+.blogSection article {
+    width: 100%;
+}
+
+.articleImage {
+    position: static;
+    margin-top: 40px;
+}
+
+.blogPost {
+    position: static;
+    padding: 0px;
+}
+
+.commentsSection {
+    width: 100%;
+    padding-left: 0px;
+}
+
+.textFlex {
+    display: flex;
+}
+
+.textDivide,
+.textDivideTwo {
+    margin: 20px;
+}
+
+}
+
+@media (max-width: 840px) {
+
+.textDivideTwo {
+    display: none;
+}
+
+.blogFlexTwo {
+    width: 100%;
+}
+
+
+
+}
+
+
+
+
+
+
+
+@media (max-width: 650px) {
+
+.headerText h1 {
+    font-size: 60px;
+}
+
+.flexParent {
+    justify-content: space-evenly;
+}
+
+.firstComment,
+.secondComment {
+    flex-wrap: wrap;
+}
+
+.firstCommentImage,
+.secondCommentImage {
+    margin-bottom: 30px;
+}
+
+.commentForm input[type="email"] {
+    margin-left: 0px;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 554px) {
+
+
+    .headWrapper {
+        width: 90%;
+    }
+
+    .textArea nav {
+        padding-left: 0px;
+    }
+
+    .boatPopOut {
+        right: 100px;
+    }
+
+    .headerText {
+        padding-left: 0px;
+    }
+    
+    .contactText ul {
+        flex-wrap: wrap;
+    }
+
+    .blogFlexTwo ul {
+        flex-wrap: wrap;
+    }
+
+    .blogFlexTwo {
+        width: 100%;
+    }
+
+    .blogSection aside {
+        width: 100%;
+    }
+
+
+
+}  
+    
+    
+
+
+
+
+
+
+
+
+@media (max-width: 470px) {
+
+// Header Media
+    .headerText h1 {
+        font-size: 40px;
+    }
+
+    .headerText {
+        width: 200px;
+    }
+
+    .flexParent nav {
+        padding-top: 0px;  
+        display: flex;
+        justify-content: center; 
+    }
+    
+    .flexParent nav ul {
+        flex-direction: column;
+    }
+
+    .flexParent nav li {
+        padding-bottom: 20px;
+    }
+
+    .textArea {
+        width: 320px;
+    }
+
+    .boatPopOut img {
+        width: 350px;
+    }
+// Header Media End
+
+
+    .traits h2 {
+    font-size: 30px;
+    }   
+    
+
+    .flexParentTwo li {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    
+    
+    
+    .galleryFlex {
+        flex-wrap: wrap;
+    }
+    
+    .galleryFlex li {
+        margin-bottom: 20px;
+    }
+    
+    .boatPopOut {
+        width: 320px;
+    }
+    
+    .textArea {
+        width: 100%;
+    }
+    
+
+
+
+    
+}
+
+
+@media (max-width: 385px) {
+
+.touchText h1 {
+    font-size: 60px;
+}
+
+.missionText p,
+.recentText ul {
+    font-size: 12px;
+}
+
+.blogPost h2 {
+    font-size: 40px;
+}
+
+
+}
